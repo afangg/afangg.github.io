@@ -1,0 +1,19 @@
+- name: ROS
+  percentage: 70
+  color: info
+
+- name: OpenCV
+  percentage: 60
+  color: info
+
+- name: Pytorch
+  percentage: 30
+  color: success
+
+- name: Xcode
+  percentage: 80
+  color: success
+
+- name: Git
+  percentage: 90
+  color: success

@@ -1,0 +1,19 @@
+- name: Python
+  percentage: 90
+  color: warning
+
+- name: C++
+  percentage: 80
+  color: primary
+
+- name: Swift
+  percentage: 70
+  color: secondary
+
+- name: Java
+  percentage: 70
+  color: danger
+
+- name: Go
+  percentage: 60
+  color: info
