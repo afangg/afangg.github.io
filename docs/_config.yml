@@ -1,10 +1,10 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Alisha Fong
 description         : >-
                         Hi there. I'm Alisha, and this is my personal website where I document my projects and experiences. Come take a look!
 
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : afangg/afangg.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
 
@@ -18,12 +18,13 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - pages/blog.html
 
 
 ### Author Info ###
 author:
   name              : Alisha Fong
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  image             : https://github.com/afangg/afangg.github.io/blob/master/images/cover.JPG?raw=true
   # behance           : your_username
 # dribbble          : your_username
   email             : afo@mit.com
