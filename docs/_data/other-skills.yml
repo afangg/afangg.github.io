@@ -8,11 +8,11 @@
 
 - name: OpenCV
   percentage: 60
-  color: info
+  color: primary
 
 - name: Pytorch
   percentage: 50
-  color: success
+  color: danger
 
 # - name: Xcode
 #   percentage: 80

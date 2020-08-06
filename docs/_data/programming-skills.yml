@@ -1,19 +1,19 @@
 - name: Python
   percentage: 90
-  color: warning
+  color: python
 
 - name: C++
-  percentage: 80
-  color: primary
+  percentage: 70
+  color: c
 
 - name: Swift
-  percentage: 70
-  color: secondary
+  percentage: 80
+  color: swift
 
 - name: Java
-  percentage: 70
-  color: danger
+  percentage: 60
+  color: java
 
 - name: Go
-  percentage: 60
-  color: info
+  percentage: 70
+  color: go
