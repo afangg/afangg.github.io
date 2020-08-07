@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Alisha Fong
 description         : >-
-                        Hi there! I'm Alisha, a junior at MIT studying EECS. This is where I document my projects and experiences. Come take a look!
+                        Hi there! I'm Alisha, a junior at MIT studying EECS
 
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)

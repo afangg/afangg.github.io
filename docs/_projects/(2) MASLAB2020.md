@@ -25,12 +25,16 @@ We brainstormed designs that could maximize the amout of scorable points. Becaus
 
 <div class="row">
   <div class="column">
+  	<center>
 	  <img src="https://github.com/afangg/afangg.github.io/blob/master/images/maslab-front.png?raw=true" width="80%">
 	  <em>The intake conveyer belt system on the front</em>
+	</center>
   </div>
   <div class="column">
+  	<center>
 	  <img src="https://github.com/afangg/afangg.github.io/blob/master/images/maslab-back.png?raw=true" width="80%">
 	  <em>The sorting and storage system on the back</em>
+	</center>
   </div>
 </div>
 
