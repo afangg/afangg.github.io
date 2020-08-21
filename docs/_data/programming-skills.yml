@@ -2,18 +2,18 @@
   percentage: 90
   color: python
 
-- name: C++
+- name: Java
   percentage: 70
+  color: java
+
+- name: C++
+  percentage: 60
   color: c
+  
+- name: Go
+  percentage: 55
+  color: go
 
 - name: Swift
   percentage: 80
   color: swift
-
-- name: Java
-  percentage: 60
-  color: java
-
-- name: Go
-  percentage: 70
-  color: go
