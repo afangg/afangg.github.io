@@ -1,18 +1,18 @@
 - name: Git
-  percentage: 90
+  percentage: 80
   color: success
 
 - name: ROS
   percentage: 70
   color: info
 
-- name: OpenCV
+- name: OpenCV 
   percentage: 60
   color: primary
 
-- name: Pytorch
-  percentage: 50
-  color: danger
+# - name: Pytorch
+#   percentage: 50
+#   color: danger
 
 # - name: Xcode
 #   percentage: 80
