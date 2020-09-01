@@ -2,7 +2,7 @@
 name: Mobile Autonomous Systems Laboratory
 tools: [ROS, Linux, TAMProxy, Arduino]
 image: https://github.com/afangg/afangg.github.io/blob/master/images/maslab-comp.png?raw=true
-description: Placed 3rd in the 6.146 MASLAB 2020 competition where my team and I designed and built the hardware and software components of a robot to autonomously collet, sort, and score in a timed challenge. 
+description: Placed 3rd in the 6.146 MASLAB 2020 competition. Designed and built the hardware and software components of a robot to autonomously collect, sort, and score in a timed challenge. 
 ---
 
 # Mobile Autonomous System Laboratory 2020
