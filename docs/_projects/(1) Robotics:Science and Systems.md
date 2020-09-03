@@ -2,7 +2,7 @@
 name: Robotics - Science and Systems
 tools: [ROS, Linux, OpenCV, Scikit]
 image: https://github.com/afangg/afangg.github.io/blob/master/images/rss-cover.png?raw=true
-description: Made toy racecars fully autonomous by implementing algorithms for control and estimation, computer vision, path planning, and pure pursuit.
+description: Made toy racecars fully autonomous by implementing algorithms for control and estimation, computer vision, localization, path planning, and pure pursuit.
 ---
 
 # 6.141 Robotics: Science and Systems 

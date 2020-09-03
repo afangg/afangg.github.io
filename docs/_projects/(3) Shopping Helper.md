@@ -1,8 +1,8 @@
 ---
-name: Shopping Helper
+name: Shopper Helper
 tools: [Arduino, OpenCV, Google Cloud Vision, HTTP, SQLite3]
 image: https://github.com/afangg/afangg.github.io/blob/master/images/608-cover.png?raw=true
-description: Detects objects using CV or barcodes to add to shopping cart and finds the nearest store to purchase your whole list
+description: A portable device that detects objects using CV or barcodes to add to shopping cart and finds the nearest store to purchase your whole list
 external_url: 
 ---
 
