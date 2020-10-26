@@ -19,5 +19,5 @@ Outside of classes I enjoy playing badminton, swimming, film and digital photogr
 
 <!-- {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %} -->
 <!-- {% include about/skills.html title="Other Skills" source=site.data.other-skills %} -->
-<center>{% include elements/button.html link="/resume.pdf" text="Resume" %}</center>
+<!-- <center>{% include elements/button.html link="/resume.pdf" text="Resume" %}</center> -->
 
