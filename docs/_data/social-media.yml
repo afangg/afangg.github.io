@@ -16,6 +16,11 @@ linkedin:
   icon  : fab fa-linkedin-in
   color : 007bb5
 
+resume:
+  url   : 
+  icon  : fa fa-file
+  color : 007bb5
+
 spotify:
   url   : https://open.spotify.com/user/
   icon  : fab fa-spotify

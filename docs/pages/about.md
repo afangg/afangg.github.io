@@ -10,12 +10,15 @@ weight: 4
  
 <img src ="https://github.com/afangg/afangg.github.io/blob/master/images/me.png?raw=true" width="45%" align="left" style="padding-right:25px">
 
-### Hi I am **{{ site.author.name }}** :wave: <br>
+<div alight="right">
+<h3> Hi I am <i>{{ site.author.name }}</i> :wave: </h3>
 
-I'm currently a Junior at the **Massachusettes Institute of Technology** majoring in *Computer Science and Electrical Engineering*. In the field of CS, my current passions include **autonomous systems** and **software development**. I've always been interested in creating products that impact a large audience, and I believe robotic systems designed to operate in an unstructured environment is the future of consumer products. Beyond that I've had experiences in software, mobile app, and web development along with embedded systems.
+<p>I'm currently a Junior at the <strong>Massachusettes Institute of Technology</strong> majoring in <i>Computer Science and Electrical Engineering</i>. </p>
 
-Outside of classes I enjoy playing badminton, swimming, film and digital photography, and playing video games! Thank you for taking the time to view my website.
+<p>In the field of CS, my current passions include <strong>autonomous systems</strong> and <strong>software development</strong>. I've always been interested in creating products that impact a large audience, and I believe robotic systems designed to operate in an unstructured environment is the future of consumer products.</p>
 
+Outside of classes I enjoy playing badminton, film and digital photography, and playing video games! Thank you!
+</div>
 
 <!-- {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %} -->
 <!-- {% include about/skills.html title="Other Skills" source=site.data.other-skills %} -->

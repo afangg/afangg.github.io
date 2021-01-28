@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Alisha Fong
 description         : >-
-                        Hi there! I'm Alisha, a junior at MIT studying EECS
+                        Hi there! I'm Alisha
 
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
@@ -19,6 +19,7 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/index.md
   - pages/blog.html
+  - pages/projects.html
 
 
 ### Author Info ###
@@ -43,6 +44,7 @@ author:
   # twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
+  resume            : https://drive.google.com/file/d/1bjdEnqE3Qv6-4845y1y8sQlB_2k1inKK/view
 
 
 ### Posts ###
