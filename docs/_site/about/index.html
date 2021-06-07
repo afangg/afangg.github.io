@@ -26,33 +26,34 @@
   <title>About</title>
   <meta name="description" content="Hi there! I'm Alisha">
 
-  
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
 
   <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
   <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
-
-<body class="d-flex flex-column h-100">
+<body class="h-100 d-flex flex-column">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-themed">
 
   <a class="navbar-brand" href="/"><h5><b>Alisha Fong</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -63,15 +64,17 @@
 
       
 
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
 
 </nav>
-  <div class="col-lg-10 mx-auto mt-5 post">
+    <div class="col-lg-10 mx-auto mt-5 post">
   <h1 id="about-me"><strong>About Me</strong></h1>
 
-<p><img src="https://github.com/afangg/afangg.github.io/blob/master/images/me.png?raw=true" width="45%" align="left" style="padding-right:25px"></p>
-
+<div alight="left">
+<img src="https://github.com/afangg/afangg.github.io/blob/master/images/me.png?raw=true" width="45%" align="left" style="padding-right:25px">
+</div>
 <div alight="right">
 <h3> Hi I am <i>Alisha Fong</i> <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> </h3>
 
@@ -79,72 +82,198 @@
 
 <p>In the field of CS, my current passions include <strong>autonomous systems</strong> and <strong>software development</strong>. I've always been interested in creating products that impact a large audience, and I believe robotic systems designed to operate in an unstructured environment is the future of consumer products.</p>
 
-Outside of classes I enjoy playing badminton, film and digital photography, and playing video games! Thank you!
+Outside of classes I enjoy playing badminton, film and digital photography, and playing video games. Thank you!
 </div>
 
 <!-- <div class="col-lg">
+
   <h2 class="mb-3">Programming Skills</h2>
-    
-      <div class="skill">
-        <p>Python</p>
-        <div class="skill-bar skill-bar-python skill-90 wow animated slideInLeft" data-wow-delay="0.05">
-          <span>90%</span>
-        </div>
-      </div>
-    
-      <div class="skill">
-        <p>Java</p>
-        <div class="skill-bar skill-bar-java skill-70 wow animated slideInLeft" data-wow-delay="0.1">
-          <span>70%</span>
-        </div>
-      </div>
-    
-      <div class="skill">
-        <p>C++</p>
-        <div class="skill-bar skill-bar-c skill-60 wow animated slideInLeft" data-wow-delay="0.15">
-          <span>60%</span>
-        </div>
-      </div>
-    
-      <div class="skill">
-        <p>Go</p>
-        <div class="skill-bar skill-bar-go skill-55 wow animated slideInLeft" data-wow-delay="0.2">
-          <span>55%</span>
-        </div>
-      </div>
-    
-      <div class="skill">
-        <p>Swift</p>
-        <div class="skill-bar skill-bar-swift skill-80 wow animated slideInLeft" data-wow-delay="0.25">
-          <span>80%</span>
-        </div>
-      </div>
-    
+
+  
+
+  <div class="row justify-content-between align-items-center">
+    <div class="col-10">
+      <p class="mb-1">Python</p>
+    </div>
+    <div class="col-2 text-right">
+      <p class="mb-1 text-muted">90%</p>
+    </div>
+  </div>
+
+  <div class="progress mb-4 bg-themed" style="height: 8px;">
+    <div class="progress-bar bg-python wow animated slideInLeft"
+      data-wow-delay="0.05"
+      role="progressbar"
+      style="width: 90%;"
+      aria-valuenow="90"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
+
+  
+
+  <div class="row justify-content-between align-items-center">
+    <div class="col-10">
+      <p class="mb-1">Java</p>
+    </div>
+    <div class="col-2 text-right">
+      <p class="mb-1 text-muted">70%</p>
+    </div>
+  </div>
+
+  <div class="progress mb-4 bg-themed" style="height: 8px;">
+    <div class="progress-bar bg-java wow animated slideInLeft"
+      data-wow-delay="0.1"
+      role="progressbar"
+      style="width: 70%;"
+      aria-valuenow="70"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
+
+  
+
+  <div class="row justify-content-between align-items-center">
+    <div class="col-10">
+      <p class="mb-1">C++</p>
+    </div>
+    <div class="col-2 text-right">
+      <p class="mb-1 text-muted">60%</p>
+    </div>
+  </div>
+
+  <div class="progress mb-4 bg-themed" style="height: 8px;">
+    <div class="progress-bar bg-c wow animated slideInLeft"
+      data-wow-delay="0.15"
+      role="progressbar"
+      style="width: 60%;"
+      aria-valuenow="60"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
+
+  
+
+  <div class="row justify-content-between align-items-center">
+    <div class="col-10">
+      <p class="mb-1">Go</p>
+    </div>
+    <div class="col-2 text-right">
+      <p class="mb-1 text-muted">55%</p>
+    </div>
+  </div>
+
+  <div class="progress mb-4 bg-themed" style="height: 8px;">
+    <div class="progress-bar bg-go wow animated slideInLeft"
+      data-wow-delay="0.2"
+      role="progressbar"
+      style="width: 55%;"
+      aria-valuenow="55"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
+
+  
+
+  <div class="row justify-content-between align-items-center">
+    <div class="col-10">
+      <p class="mb-1">Swift</p>
+    </div>
+    <div class="col-2 text-right">
+      <p class="mb-1 text-muted">80%</p>
+    </div>
+  </div>
+
+  <div class="progress mb-4 bg-themed" style="height: 8px;">
+    <div class="progress-bar bg-swift wow animated slideInLeft"
+      data-wow-delay="0.25"
+      role="progressbar"
+      style="width: 80%;"
+      aria-valuenow="80"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
+
+  
+
 </div> -->
 <!-- <div class="col-lg">
+
   <h2 class="mb-3">Other Skills</h2>
-    
-      <div class="skill">
-        <p>Git</p>
-        <div class="skill-bar skill-bar-success skill-80 wow animated slideInLeft" data-wow-delay="0.05">
-          <span>80%</span>
-        </div>
-      </div>
-    
-      <div class="skill">
-        <p>ROS</p>
-        <div class="skill-bar skill-bar-info skill-70 wow animated slideInLeft" data-wow-delay="0.1">
-          <span>70%</span>
-        </div>
-      </div>
-    
-      <div class="skill">
-        <p>OpenCV</p>
-        <div class="skill-bar skill-bar-primary skill-60 wow animated slideInLeft" data-wow-delay="0.15">
-          <span>60%</span>
-        </div>
-      </div>
-    
+
+  
+
+  <div class="row justify-content-between align-items-center">
+    <div class="col-10">
+      <p class="mb-1">Git</p>
+    </div>
+    <div class="col-2 text-right">
+      <p class="mb-1 text-muted">80%</p>
+    </div>
+  </div>
+
+  <div class="progress mb-4 bg-themed" style="height: 8px;">
+    <div class="progress-bar bg-success wow animated slideInLeft"
+      data-wow-delay="0.05"
+      role="progressbar"
+      style="width: 80%;"
+      aria-valuenow="80"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
+
+  
+
+  <div class="row justify-content-between align-items-center">
+    <div class="col-10">
+      <p class="mb-1">ROS</p>
+    </div>
+    <div class="col-2 text-right">
+      <p class="mb-1 text-muted">70%</p>
+    </div>
+  </div>
+
+  <div class="progress mb-4 bg-themed" style="height: 8px;">
+    <div class="progress-bar bg-info wow animated slideInLeft"
+      data-wow-delay="0.1"
+      role="progressbar"
+      style="width: 70%;"
+      aria-valuenow="70"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
+
+  
+
+  <div class="row justify-content-between align-items-center">
+    <div class="col-10">
+      <p class="mb-1">OpenCV</p>
+    </div>
+    <div class="col-2 text-right">
+      <p class="mb-1 text-muted">60%</p>
+    </div>
+  </div>
+
+  <div class="progress mb-4 bg-themed" style="height: 8px;">
+    <div class="progress-bar bg-primary wow animated slideInLeft"
+      data-wow-delay="0.15"
+      role="progressbar"
+      style="width: 60%;"
+      aria-valuenow="60"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
+
+  
+
 </div> -->
 <!-- <center><a class="m-1 btn btn-outline-primary btn-2 " href="/resume.pdf">
   Resume
@@ -168,7 +297,7 @@ Outside of classes I enjoy playing badminton, film and digital photography, and 
       <i class="fab fa-github fa-1x"></i>
     </a><a class="social mx-1" href="https://www.linkedin.com/in/alishafong" style="color: #6c757d" onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-linkedin-in fa-1x"></i>
-    </a><a class="social mx-1" href="https://drive.google.com/file/d/1bjdEnqE3Qv6-4845y1y8sQlB_2k1inKK/view" style="color: #6c757d" onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://drive.google.com/file/d/1mOuVOc60ThkjSue340Lj52-vLecAsmbC/view?usp=sharinghttps://drive.google.com/file/d/1bjdEnqE3Qv6-4845y1y8sQlB_2k1inKK/view" style="color: #6c757d" onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
       <i class="fa fa-file fa-1x"></i>
     </a>
 
@@ -178,6 +307,7 @@ Outside of classes I enjoy playing badminton, film and digital photography, and 
   </small>
   
 </footer>
+
   
   <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -201,6 +331,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
 
 </body>
 
