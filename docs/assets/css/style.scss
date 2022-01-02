@@ -39,3 +39,15 @@ hr.dotted {
 hr.solid {
   border-top: 3px solid #bbb;
 }
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-img {
+  object-fit: cover;
+  width: 40%;
+  // height: 100%;
+  padding-right: 25px;
+}

@@ -1,5 +1,5 @@
 ---
-name: 6.170: MIT's Web Dev Class!
+name: MIT's Web Dev Class!
 tools: [HTML/CSS, JavaScript, Vue, MongoDB, Heroku, REST APIs,]
 image: 
 description: Fun lab class where we wrote the backend and frontend of websites
@@ -35,7 +35,7 @@ Vist Cambridge Connect [here](https://cambridge-connect-final.herokuapp.com/#/)
   <em>Account screen of Cambridge Connect</em>
 </p>
 
-<br>I had full ownership of user accounts and I built the API for users, managing session cookies, persistent storage of users, along with the Log In screen and Accounts page.
+<br>I had full ownership of user accounts and I built the API for users, managing session cookies, persistent storage of users using MongoDB, along with the Log In screen and Accounts page.
 
 
 
