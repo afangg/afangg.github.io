@@ -8,15 +8,15 @@ weight: 4
 # **About Me**
 
  <div class="about">
-<img src ="https://github.com/afangg/afangg.github.io/blob/master/images/me.png?raw=true" class="about-img">
+<img src ="https://github.com/afangg/afangg.github.io/blob/master/images/fremont.jpg?raw=true" class="about-img">
 <div>
 <h3> Hi I am <i>{{ site.author.name }}</i> :wave: </h3>
 
-<p>I'm a senior at the <strong>Massachusettes Institute of Technology</strong> majoring in <i>Computer Science and Electrical Engineering</i>. I will be pursing a Masters of Engineering with a concentration in Artifical Intelligence next year. </p>
+<p>I'm student at the <strong>Massachusettes Institute of Technology</strong> majoring in <i>Computer Science and Electrical Engineering</i> with a concentration in Artifical Intelligence. I'm working in Pulkit Agrawal's lab <a href="https://people.csail.mit.edu/pulkitag/">Improbable AI</a> to solve some improbable problems.</p>
 
-<p>In the field of CS, my current passions include <strong>autonomous systems</strong> and <strong>software development</strong>. I've always been interested in creating products that impact a large audience, and I believe robotic systems designed to operate in an unstructured environment is the future of consumer products.</p>
+<p>In the field of CS, my passions include <strong>autonomous systems</strong> and <strong>software development</strong>. I've always been interested in creating products that impact a large audience, and I believe if robotic systems and AI are scalable and ethical, they can not only improve our quality of life, but also tackle some of the world's most pressing problems.</p>
 
-Outside of classes I enjoy playing badminton, film and digital photography, and playing video games.
+I also enjoy film photography, anime, and badminton. 
 </div>
 </div>
 
